@@ -11,7 +11,8 @@ namespace PhononTests
         [TestMethod]
         public void TestMethod1()
         {
-            
+
+            Phonon p = new Phonon(1);
         }
     }
 }

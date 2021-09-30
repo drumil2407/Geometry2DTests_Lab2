@@ -4,6 +4,7 @@ namespace Geometry2DUnitTests
 {
 
 	using Lab2.Geometry2D;
+	using Lab2.Particles;
 	using System;
 
 	[TestClass]
@@ -60,7 +61,7 @@ namespace Geometry2DUnitTests
 	}
 	[TestClass]
 	public class RectangleTests
-	{ 
+	{
 		[TestMethod]
 		public void TestRectangle()
 		{
@@ -69,6 +70,20 @@ namespace Geometry2DUnitTests
 			Assert.AreEqual(3, r.Width);
 			Assert.AreEqual(6, r.Area);
 		}
+	}
+	[TestClass]
+
+	public class PhononTests
+	{
+
+		[TestMethod]
+		public void TestDrift()
+		{
+
+			Phonon p = new Phonon(1);
+
+		}
+
 	}
 
 }
